@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache directories
+*.cache/
+*.pytest_cache/
+
+# Environment & Secrets
+.env
+.python-version
+
+# Data & Logs
+db_test_data/
+emails_test_data/
+images_test_data/
+test_data/
+*.log
+*.joblib
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# IDE & Editor Specific
+.vscode/
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
